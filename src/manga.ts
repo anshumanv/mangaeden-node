@@ -10,7 +10,7 @@ import { getMangaList } from './mangaList';
 export const getMangaInfo = async (mangaId: string): Promise<any> => {
   const mangaInfo = await axios.get(`${API}/manga/${mangaId}`);
   return mangaInfo;
-}
+};
 
 /**
  * Get manga chapter with a given ID
@@ -20,12 +20,9 @@ export const getMangaInfo = async (mangaId: string): Promise<any> => {
 export const getChapter = async (chapterId: string): Promise<any> => {
   const chapters = await axios.get(`${API}/chapter/${chapterId}`);
   return chapters;
-}
+};
 
 // export const searchManga = async (query: string): Promise<any> => {
 //   const mangas = await getMangaList();
 //   console.log(mangas);
 // }
-
-
-
