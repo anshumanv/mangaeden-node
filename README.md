@@ -1,6 +1,15 @@
-# mangaeden-node
+<h1 align="center"> mangaeden-node </h1>
+<p align="center">
+<img src="https://img.shields.io/npm/v/mangaeden-node.svg?style=for-the-badge" align="center">
 
-> A Node.js API wrapper over [mangaeden](https://www.mangaeden.com/api/) API.
+<img src="https://img.shields.io/npm/dt/mangaeden-node.svg?style=for-the-badge" align="center">
+
+<img src="https://img.shields.io/github/license/anshumanv/mangaeden-node.svg?style=for-the-badge" align="center">
+
+</p>
+
+
+<p align="center">A Node.js API wrapper over <a href="https://www.mangaeden.com/api/">mangaeden</a> API.</p>
 
 
 ### Usage
@@ -104,6 +113,11 @@ getChapter().then(stuff => console.log(stuff.data))
 
 ```
 
+#### Credits
+
+* Huge kudos to [mangaeden](https://www.mangaeden.com/eng/) for proving the API
+
+
 ## Author
 
 [Anshuman Verma](https://github.com/anshumanv)
@@ -111,4 +125,3 @@ getChapter().then(stuff => console.log(stuff.data))
 [<img src="https://image.flaticon.com/icons/svg/185/185961.svg" width="35" padding="10">](https://twitter.com/Anshumaniac12)
 [<img src="https://image.flaticon.com/icons/svg/185/185964.svg" width="35" padding="10">](https://linkedin.com/in/anshumanv12)
 [<img src="https://image.flaticon.com/icons/svg/185/185981.svg" width="35" padding="10">](https://www.facebook.com/anshumanv12)
-
